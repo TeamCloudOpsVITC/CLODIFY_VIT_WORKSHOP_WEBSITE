@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/css/main.69a95234.css",
+    "main.js": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/js/main.6d13e93f.js",
+    "static/media/pic.png": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/pic.628a02716d2f31cc3dd7.png",
+    "static/media/Doodle1.png": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Doodle1.392fa2d1af0a5613a936.png",
+    "static/media/Logo.png": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Logo.628a02716d2f31cc3dd7.png",
+    "static/media/Vedaant.jpeg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Vedaant.347fdfc21f2f50d99ac0.jpeg",
+    "static/media/Saptarshi.jpeg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Saptarshi.e36db6afadb372a0aab2.jpeg",
+    "static/media/Yeyati Linkedin.jpg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Yeyati Linkedin.5728355c06bf1a4c3879.jpg",
+    "static/media/Aditya Kushwaha Linkedin.jpg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Aditya Kushwaha Linkedin.a3be81f439e2ee8889a2.jpg",
+    "index.html": "/CLODIFY_VIT_WORKSHOP_WEBSITE/index.html",
+    "main.69a95234.css.map": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/css/main.69a95234.css.map",
+    "main.6d13e93f.js.map": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/js/main.6d13e93f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69a95234.css",
+    "static/js/main.6d13e93f.js"
+  ]
+}
