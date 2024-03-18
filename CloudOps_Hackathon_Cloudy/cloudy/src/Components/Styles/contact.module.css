@@ -1,0 +1,140 @@
+/* Your existing CSS code */
+.contact {
+  text-align: center;
+  height: 100vh;
+  color: white;
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(100, 4px);
+}
+.cardCarousal {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(200, 4px);
+  grid-column: 5 /10;
+  justify-content: center;
+}
+@media (max-width: 675px) {
+  .contact {
+    height: 150vh;
+  }
+  /* .cardCarousal {
+    display: flex;
+    grid-row: 1;
+  } */
+  .card:nth-child(1) {
+    grid-row: 20;
+  }
+  .card:nth-child(2) {
+    grid-row: 120;
+  }
+}
+.card {
+  display: grid;
+
+  grid-template-rows: repeat(100, 4px);
+  border-radius: 20px;
+  margin-right: 70px;
+  grid-row: 10;
+  background: black;
+  flex: 0 0 auto;
+  width: 100px;
+  height: 200px;
+  padding: 3em;
+  justify-content: center;
+  /* margin-right: 70px; */
+  padding: 80px;
+}
+.card:hover {
+  /* position: absolute; */
+
+  transform: translateY(-20px);
+  background-color: blue;
+  transition: 1s;
+}
+.card > h2 {
+  width: 150px;
+  text-align: center;
+  grid-row: 40;
+}
+.card>p{
+  width: 150px;
+  grid-row: 57;
+  text-align: center;
+}
+.card > img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  grid-row: 1;
+  /* transition: width 0.3s, height 0.3s, box-shadow 0.5s; Add box-shadow transition */
+  /* position: relative; Required for pseudo-element positioning */
+}
+
+.pic:hover {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 50px rgba(0, 0, 255, 0.5); /* Add a bluish glow box shadow */
+}
+
+/* .pic::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: rgba(
+    0,
+    0,
+    255,
+    0.2
+  ); /* Bluish glow color with transparency */
+/* Transition for the glow effect */
+
+.pic:hover::after {
+  opacity: 1; /* Show the glow effect on hover */
+}
+
+.contactInfo {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  transition: top 0.3s;
+}
+
+.contactItem:hover .contactInfo {
+  top: -30px;
+}
+.virtualAssistant {
+  margin-top: 20px;
+  color: #666; /* Customize the color as needed */
+}
+/* Existing styles */
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .contactContainer {
+    grid-template-columns: repeat(1, 1fr); /* Change to single column layout */
+  }
+
+  .cardCarousal {
+    grid-column: 1 / -1; /* Expand grid column to full width */
+  }
+
+  .card {
+    margin-right: 0; /* Remove right margin for cards */
+    margin-bottom: 20px; /* Add bottom margin for cards */
+  }
+
+  .virtualAssistant {
+    margin-top: 30px; /* Adjust top margin for virtual assistant text */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}

@@ -1,0 +1,123 @@
+.homeSection {
+  display: flex;
+  /* padding-top: 3em; */
+}
+
+/* .sectionBody {
+  display: grid;
+  max-height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(100, 5px);
+} */
+
+.innerBody {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+  background: rgb(8, 4, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 4, 64, 1) 16%,
+    rgba(19, 35, 57, 1) 31%,
+    rgba(26, 17, 59, 1) 62%,
+    rgba(7, 53, 62, 1) 98%
+  );
+  grid-column: 2 / span 10;
+  grid-row: 1/ 100;
+  border-radius: 10px;
+}
+
+.left {
+  /* grid-column: 2 / span 4; */
+  grid-column: 2 / span 4;
+  padding-top: 4rem;
+  grid-row: 10 / span 60;
+  font-size: 18px;
+}
+
+.left > h1,
+h2,
+p {
+  color: aliceblue;
+}
+
+.right {
+  grid-column: 9 / span 11;
+  grid-row: 10 / span 60;
+}
+
+.right > img {
+  width: 18em;
+  height: 22em;
+  padding-top: 3rem;
+}
+
+/* .homeButtonBody{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    grid-template-rows: repeat(10, 4px);
+} */
+
+.homeButton {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 4px);
+}
+
+button:hover{
+    /* background-color:#ffd700; */
+    background: rgb(248,246,48);
+    background: linear-gradient(90deg, rgba(248,246,48,1) 16%, rgba(242,242,86,1) 36%);
+    transition: 0.7s;
+    color: black;
+    font-weight: 200;
+}
+.joinUs {
+  width: 9em;
+  height: 3em;
+  border-radius: 2px;
+  background: rgb(24,44,86);
+  background: linear-gradient(90deg, rgba(24,44,86,1) 2%, rgba(59,94,149,1) 83%);
+  border-radius: 8px; 
+  color: #fff; 
+  text-align: center;
+  text-decoration: none; 
+  letter-spacing: 1px; 
+  transition: all 0.3s ease-out; 
+
+}
+.register {
+  width: 9em;
+  height: 3em;
+  border-radius: 4px;
+  grid-row: 1 / span 10;
+  /* background: rgb(4,21,58); */
+  background: rgb(24,44,86);
+  background: linear-gradient(90deg, rgba(24,44,86,1) 2%, rgba(59,94,149,1) 83%);
+  border-radius: 8px; 
+  color: #fff; 
+  text-align: center;
+  text-decoration: none; 
+  letter-spacing: 1px; 
+  transition: all 0.3s ease-out; 
+}
+
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .innerBody {
+    grid-column: 1 / span 12;
+  }
+  
+  .left,
+  .right {
+    grid-column: 1 / span 12;
+    margin-left: 10px;
+  }
+  
+  /* Hide the image */
+  .right > img {
+    display: none;
+  }
+}

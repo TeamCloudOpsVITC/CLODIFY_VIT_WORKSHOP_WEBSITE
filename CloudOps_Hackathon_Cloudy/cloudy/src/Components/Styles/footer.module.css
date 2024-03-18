@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Center align text horizontally */
+    align-items: center; /* Center align text vertically */
+    background-color: #1a1a1a;
+    color: white;
+    position: fixed; /* Make the footer sticky */
+    bottom: 0; /* Stick it to the bottom of the viewport */
+    width: 100%; /* Make it full width */
+    height: 60px; /* Set a height for the footer */
+    
+  }

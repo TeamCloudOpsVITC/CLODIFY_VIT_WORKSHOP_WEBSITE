@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    --sb-track-color: #1a1a1a;
+    --sb-thumb-color: #ffd700;
+    --sb-size: 13px;
+    margin: 0; 
+    padding: 0; 
+    
+    
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 13px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 13px;
+    border: 3px solid #232E33;
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }

@@ -1,0 +1,25 @@
+/* .faqSection {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.sectionBody {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(200, 2px);
+}
+.title {
+  font-size: 4em;
+}
+.faqContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(200, 4px);
+}
+.left > p {
+  border: solid 2px white;
+}
+.question:hover {
+  background: #fff;
+} */

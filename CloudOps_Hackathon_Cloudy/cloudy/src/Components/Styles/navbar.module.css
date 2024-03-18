@@ -1,0 +1,73 @@
+/* navbar.module.css */
+
+/* Regular styles for large screens */
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 18px;
+  position: sticky;
+  top: 0; 
+  z-index: 1000;
+}
+
+.logo {
+  height: 45px; /* Adjust the height of the image */
+  width: 75px; /* Maintain aspect ratio */
+  margin-right: auto; /* Push the image to the left */
+}
+
+.menuButton {
+  display: none; /* Hide the menu button by default */
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.menuItems a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.menuItems.open {
+  display: block;
+  position: absolute;
+  top: 60px; /* Adjust as needed */
+  left: 0;
+  width: 100%;
+  /* border-bottom-left-radius: 20px; */
+  border-bottom-right-radius: 40px; /* Rounded bottom-right corner */
+  background-color:#1a1a1a;
+}
+
+.menuItems.open a {
+  display: block;
+  padding: 10px 20px;
+}
+
+/* Media Query for small screens */
+@media screen and (max-width: 768px) {
+  .menuButton {
+    display: block; /* Show the menu button for small screens */
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: auto; /* Push the button to the right */
+  }
+
+  .menuItems {
+    display: none; /* Hide the menu items by default for small screens */
+  }
+
+  .menuItems.open {
+    display: block; /* Display the menu items when menu is open */
+  }
+}
+
+

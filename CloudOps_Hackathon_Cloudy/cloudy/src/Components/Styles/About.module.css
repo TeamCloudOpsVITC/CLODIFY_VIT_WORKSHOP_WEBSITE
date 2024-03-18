@@ -1,0 +1,60 @@
+.aboutSection {
+  display: flex;
+
+}
+
+.sectionBody {
+  display: grid;
+  max-height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(100, 5px);
+}
+
+.left > p, h1{
+  color: rgb(255, 255, 255);
+}
+
+.left{
+  grid-column: 2/ span 5;
+  grid-row: 30;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.right{
+    grid-column: 9/ span 10;
+    grid-row: 30; 
+}
+
+.right > img{
+  /* width: 20em;
+  height: 20em; */
+  max-width: 100%;
+  height: 350px;
+} 
+
+@media screen and (max-width: 768px) {
+  .sectionBody {
+    grid-template-columns: repeat(6, 1fr); /* Reduce the number of columns to half on smaller screens */
+    grid-template-rows: repeat(200, 5px); /* Adjust the number of rows as needed */
+  }
+
+  .left {
+    grid-column: 1 / span 12;
+    margin-top: 10px;
+    padding:10px ;
+  }
+
+  .right > img {
+    display: none;
+    width: 90%;
+    height: 300px; /* Reduce image width for smaller screens */
+    margin: 120px auto;
+    margin-right: 50px; /* Center the image */
+  }
+
+    .right {
+      grid-column: 7 / span 6;
+      margin-top: auto /* Adjust grid column for smaller screens */
+    }
+}

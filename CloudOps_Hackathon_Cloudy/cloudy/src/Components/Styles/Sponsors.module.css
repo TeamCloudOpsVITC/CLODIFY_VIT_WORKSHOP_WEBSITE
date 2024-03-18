@@ -1,0 +1,39 @@
+.sponsorSection {
+  display: flex;
+  justify-content: center;
+  height: max(700px, 100vh);
+}
+.sectionBody {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(200, 4px);
+  width: 70%;
+}
+
+.title {
+  grid-column: 5 / span 8;
+  margin-left: 5%;
+}
+
+.Sponsor1 {
+  margin-top: 3em;
+  grid-column: 4/ 8;
+  grid-row: 30;
+  margin-left: 14%;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    grid-column: 1 / -1; /* Span the full width */
+    margin-left: 0; /* Reset left margin */
+  }
+  .Sponsor1 {
+    grid-column: 1 / span 12; /* Span the full width */
+    margin-left: 0; /* Reset left margin */
+    margin-top: 1em; /* Adjust margin top for smaller screens */
+  }
+  .Sponsor1 img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
