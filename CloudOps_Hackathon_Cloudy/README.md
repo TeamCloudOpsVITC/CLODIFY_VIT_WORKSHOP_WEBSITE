@@ -1,1 +1,0 @@
-# CloudOps_Hackathon_Cloudy
