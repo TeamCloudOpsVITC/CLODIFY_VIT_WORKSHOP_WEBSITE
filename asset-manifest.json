@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/css/main.69a95234.css",
-    "main.js": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/js/main.6d13e93f.js",
+    "main.css": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/css/main.9771bd40.css",
+    "main.js": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/js/main.8b2dd5f1.js",
     "static/media/pic.png": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/pic.628a02716d2f31cc3dd7.png",
+    "static/media/adhivishnu.jpg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/adhivishnu.8e10acd60175b9e59632.jpg",
+    "static/media/shahzil.jpg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/shahzil.48609cb047511b4ecaf2.jpg",
     "static/media/Doodle1.png": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Doodle1.392fa2d1af0a5613a936.png",
     "static/media/Logo.png": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Logo.628a02716d2f31cc3dd7.png",
     "static/media/Vedaant.jpeg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Vedaant.347fdfc21f2f50d99ac0.jpeg",
+    "static/media/khusal_agarwal.jpg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/khusal_agarwal.7b9f65666ed7e78c71c5.jpg",
     "static/media/Saptarshi.jpeg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Saptarshi.e36db6afadb372a0aab2.jpeg",
     "static/media/Yeyati Linkedin.jpg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Yeyati Linkedin.5728355c06bf1a4c3879.jpg",
-    "static/media/Aditya Kushwaha Linkedin.jpg": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/media/Aditya Kushwaha Linkedin.a3be81f439e2ee8889a2.jpg",
     "index.html": "/CLODIFY_VIT_WORKSHOP_WEBSITE/index.html",
-    "main.69a95234.css.map": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/css/main.69a95234.css.map",
-    "main.6d13e93f.js.map": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/js/main.6d13e93f.js.map"
+    "main.9771bd40.css.map": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/css/main.9771bd40.css.map",
+    "main.8b2dd5f1.js.map": "/CLODIFY_VIT_WORKSHOP_WEBSITE/static/js/main.8b2dd5f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.69a95234.css",
-    "static/js/main.6d13e93f.js"
+    "static/css/main.9771bd40.css",
+    "static/js/main.8b2dd5f1.js"
   ]
 }
