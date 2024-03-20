@@ -11,7 +11,7 @@ function Contact() {
       Phone: "+916291506490",
     },
     {
-      Name: "Vedaant Kumar",
+      Name: "Vedant Kumar",
       img: VedaantPic,
       Phone: "+919812370346",
     },

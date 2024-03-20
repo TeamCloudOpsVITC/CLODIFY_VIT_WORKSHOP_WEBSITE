@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import teamStyles from "../Styles/Team.module.css";
-import profilePic1 from "./assets/Aditya Kushwaha Linkedin.jpg";
+import profilePic1 from "./assets/khusal_agarwal.jpg";
 import profilePic2 from "./assets/Yeyati Linkedin.jpg";
+import profilePic3 from "./assets/adhivishnu.jpg";
+import profilePic4 from "./assets/shahzil.jpg";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { gsap } from "gsap";
 import { useDraggable } from "react-use-draggable-scroll";
@@ -12,18 +14,27 @@ const Courses = [
   {
     id: 1,
     img: profilePic1,
-    name: "Aditya Kushwaha",
+    name: "Kushal Agrawal",
     details: "Details speaker 1",
   },
   {
     id: 2,
     img: profilePic2,
-
     name: "Yeyati Prasher",
     details: "Details speaker 2",
   },
-
- 
+  {
+    id: 3,
+    img: profilePic3,
+    name: "Aadivishnu Gajendra",
+    details: "Details speaker 3",
+  },
+  {
+    id: 4,
+    img: profilePic4,
+    name: "Mohammad Shahzil",
+    details: "Details speaker 4",
+  }
 ];
 
 function Course() {

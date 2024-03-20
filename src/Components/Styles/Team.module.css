@@ -35,17 +35,15 @@
   /* grid-template-rows: repeat(100, 4px); */
 }
 .card_carousel {
-  display: flex;
-  grid-column: 5 / span 7;
-  overflow-x: hidden;
-  gap: 5em;
-  padding-bottom: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Adjust as needed */
+  justify-items: center; /* Center items horizontally */
 }
 .card {
-  flex: 0 0 auto;
-  width: 10px;
-  margin-right: 70px;
-  padding: 40px;
+  width: 100%; /* Take full width of the column */
+  max-width: 300px; /* Adjust maximum width as needed */
+  margin-bottom: 20px; /* Space between cards */
 }
 .card > img {
   width: 12em;

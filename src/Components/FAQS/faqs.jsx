@@ -59,7 +59,7 @@ const data = {
     },
     {
       title: "What is the date and venue of the workshop?",
-      content: "The workshop is scheduled for March 23, 2024, in the AB-1 conference room. A participation fee of 80 is required to attend the workshop, and participants who have paid the fee will be eligible for prize money of 500. Join us for this exciting opportunity to learn and compete!"
+      content: "The workshop is scheduled for March 23, 2024, in the AB-1 505. A participation fee of 80 is required to attend the workshop, and there is a prize money of 500rs. Join us for this exciting opportunity to learn and compete!"
     }
   
   ]

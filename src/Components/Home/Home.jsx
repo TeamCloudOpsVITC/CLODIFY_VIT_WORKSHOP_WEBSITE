@@ -68,10 +68,22 @@ function Home() {
               </p>
               <div className={HomeStyles.homeButtonBody}>
                 <div className={HomeStyles.homeButton}>
-                  <button className={HomeStyles.joinUs}>
-                    Join Us On Whatsapp
-                  </button>
-                  <button className={HomeStyles.register}>Register</button>
+                <button
+  className={HomeStyles.joinUs}
+  onClick={() => {
+    window.location.href = 'https://chat.whatsapp.com/FWoBAK9wXTGJajvEJ0fGch';
+  }}
+>
+  Join Us On Whatsapp
+</button>
+<button
+  className={HomeStyles.register}
+  onClick={() => {
+    window.location.href = 'https://vitchennaievents.com/conf1/';
+  }}
+>
+  Register
+</button>
                 </div>
               </div>
             </div>
