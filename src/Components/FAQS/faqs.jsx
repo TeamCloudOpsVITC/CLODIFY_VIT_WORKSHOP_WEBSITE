@@ -68,7 +68,7 @@ const data = {
 const faqContainerStyle = {
   width: '80%', // Adjust this value to increase or decrease the width
   height: '380px',
-  margin:'95px auto',
+  margin:'150px auto',
 };
 
 return (

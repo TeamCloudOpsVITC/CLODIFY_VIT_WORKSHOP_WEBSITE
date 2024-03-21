@@ -29,7 +29,7 @@
 
 .left {
   /* grid-column: 2 / span 4; */
-  grid-column: 2 / span 4;
+  grid-column: 2 / span 6;
   padding-top: 4rem;
   grid-row: 10 / span 60;
   font-size: 18px;
@@ -42,8 +42,8 @@ p {
 }
 
 .right {
-  grid-column: 9 / span 11;
-  grid-row: 10 / span 60;
+  grid-column: 10 / span 11;
+  grid-row: 16 / span 60;
 }
 
 .right > img {
@@ -120,4 +120,5 @@ button:hover{
   .right > img {
     display: none;
   }
+  
 }

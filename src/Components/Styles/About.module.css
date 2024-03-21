@@ -15,15 +15,15 @@
 }
 
 .left{
-  grid-column: 2/ span 5;
+  grid-column: 2/ span 6;
   grid-row: 30;
   margin-top: 40px;
   font-size: 20px;
 }
 
 .right{
-    grid-column: 9/ span 10;
-    grid-row: 30; 
+    grid-column: 9/ span 12;
+    grid-row: 50; 
 }
 
 .right > img{

@@ -16,6 +16,7 @@
 @media (max-width: 406px) {
   .headingSpeakers {
     padding-top: 20px;
+    margin-top: 10%;
   }
 }
 @media (max-width: 366px) {
@@ -31,6 +32,7 @@
 }
 .card_gallery_wrap {
   display: grid;
+  margin-left: 50px;
   /* grid-template-columns: repeat(12, 1fr); */
   /* grid-template-rows: repeat(100, 4px); */
 }
